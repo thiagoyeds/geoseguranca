@@ -1,0 +1,20 @@
+<style>
+  <id>StyleInfoImpl--6c8b420b:1796feadf40:-751d</id>
+  <name>mesoregiao</name>
+  <workspace>
+    <id>WorkspaceInfoImpl--1462b1d4:179561550ba:-7fff</id>
+  </workspace>
+  <format>sld</format>
+  <languageVersion>
+    <version>1.0.0</version>
+  </languageVersion>
+  <filename>mesoregiao.sld</filename>
+  <legend>
+    <width>400</width>
+    <height>400</height>
+    <format>image/png</format>
+    <onlineResource>mesoregiao_legen.png</onlineResource>
+  </legend>
+  <dateCreated>2021-05-16 20:04:40.395 UTC</dateCreated>
+  <dateModified>2021-05-16 21:49:50.633 UTC</dateModified>
+</style>
