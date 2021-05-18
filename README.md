@@ -15,7 +15,7 @@ Thiago Yuri Evaristo de Souza
 É o backend do projeto, utiliza o geoserver que obdece aos padrões OGC e dispõe dos servicos de WMS, WFS, ...
 O atual conteudo da pasta é o do workspace criado no geoserver, ou seja, em <caminho_para_pasta_do_tomcat>/webapps/geoserver/data/workspaces/geoseguranca (o nome real dessa pasta no projeto é `geoseguranca`, mas para fins de facilitação na separação do projeto foi nomeado de `geoserver` aqui no GitHub)
 
-## Sobre a pasta sqls
-São os sqls utilizados no projeto para popular o BD, alguns sqls sofreram ajustes manuais, mas o resultado final foi utilizado os sqls contidos nessa pasta
+## Sobre os sqls
+Os sqls utilizados no projeto para popular o BD estão localizados [aqui](https://drive.google.com/file/d/1i51danuYH5vbh3HLz3xdmTSI3IxE5bPA/view?usp=sharing), alguns sqls sofreram ajustes manuais, mas o resultado final foi utilizado os sqls contidos nesse arquivo
 
 Demo aqui: https://drive.google.com/file/d/1GcF7PiF6vmvQD0srF79tUh8G5-Cfkkpd/view?usp=sharing
