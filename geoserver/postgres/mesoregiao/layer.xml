@@ -1,0 +1,17 @@
+<layer>
+  <name>mesoregiao</name>
+  <id>LayerInfoImpl--24c09275:1796ae396ca:-7ffe</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6c8b420b:1796feadf40:-751d</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--24c09275:1796ae396ca:-7fff</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2021-05-14 12:47:48.314 UTC</dateCreated>
+  <dateModified>2021-05-16 20:14:49.970 UTC</dateModified>
+</layer>

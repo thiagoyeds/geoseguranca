@@ -1,0 +1,58 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--6c8b420b:1796feadf40:-7628</id>
+  <name>postos_federais_buffer</name>
+  <nativeName>postos_federais_buffer</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--1462b1d4:179561550ba:-7ffe</id>
+  </namespace>
+  <title>postos_federais_buffer</title>
+  <keywords>
+    <string>features</string>
+    <string>postos_federais_buffer</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>postos_federais_buffer</name>
+        <sql>select ST_BUFFER(geom, (0.009 * %km%))&#xd;
+from postos_federais
+</sql>
+        <escapeSql>false</escapeSql>
+        <parameter>
+          <name>km</name>
+          <defaultValue>1</defaultValue>
+          <regexpValidator>^[\w\d\s]+$</regexpValidator>
+        </parameter>
+      </virtualTable>
+    </entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--1462b1d4:179561550ba:-7ffd</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

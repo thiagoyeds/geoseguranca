@@ -1,0 +1,16 @@
+<layer>
+  <name>delegacias_civis_near</name>
+  <id>LayerInfoImpl--6c8b420b:1796feadf40:-76e5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6c8b420b:1796feadf40:-7959</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--6c8b420b:1796feadf40:-76e6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2021-05-16 19:31:13.740 UTC</dateCreated>
+</layer>

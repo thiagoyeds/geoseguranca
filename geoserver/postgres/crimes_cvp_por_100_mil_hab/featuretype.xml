@@ -1,0 +1,57 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-7e628839:17977f815af:-7fef</id>
+  <name>crimes_cvp_por_100_mil_hab</name>
+  <nativeName>crimes_cvp_por_100_mil_hab</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--1462b1d4:179561550ba:-7ffe</id>
+  </namespace>
+  <title>crimes_cvp_por_100_mil_hab</title>
+  <keywords>
+    <string>features</string>
+    <string>crimes_cvp_por_100_mil_hab</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>crimes_cvp_por_100_mil_hab</name>
+        <sql>select nm_mun, taxa_cvp_2, geom from crimes
+</sql>
+        <escapeSql>false</escapeSql>
+        <geometry>
+          <name>geom</name>
+          <type>Geometry</type>
+          <srid>-1</srid>
+        </geometry>
+      </virtualTable>
+    </entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--1462b1d4:179561550ba:-7ffd</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,17 @@
+<layer>
+  <name>delegacias_civis</name>
+  <id>LayerInfoImpl--14fd4456:1796b002f34:-7ff3</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--14fd4456:1796b002f34:-7fb4</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--14fd4456:1796b002f34:-7ff4</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2021-05-14 14:00:52.230 UTC</dateCreated>
+  <dateModified>2021-05-17 02:50:53.817 UTC</dateModified>
+</layer>

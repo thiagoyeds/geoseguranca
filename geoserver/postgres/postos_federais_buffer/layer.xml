@@ -1,0 +1,17 @@
+<layer>
+  <name>postos_federais_buffer</name>
+  <id>LayerInfoImpl--6c8b420b:1796feadf40:-7627</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6c8b420b:1796feadf40:-75c3</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--6c8b420b:1796feadf40:-7628</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2021-05-16 19:51:37.273 UTC</dateCreated>
+  <dateModified>2021-05-16 19:57:14.816 UTC</dateModified>
+</layer>

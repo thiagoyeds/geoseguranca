@@ -1,0 +1,17 @@
+<layer>
+  <name>delegacias_federais_near</name>
+  <id>LayerInfoImpl--6c8b420b:1796feadf40:-7a23</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6c8b420b:1796feadf40:-7959</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--6c8b420b:1796feadf40:-7a24</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2021-05-15 21:24:37.328 UTC</dateCreated>
+  <dateModified>2021-05-16 18:53:09.976 UTC</dateModified>
+</layer>

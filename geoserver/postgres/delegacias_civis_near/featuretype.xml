@@ -1,0 +1,64 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--6c8b420b:1796feadf40:-76e6</id>
+  <name>delegacias_civis_near</name>
+  <nativeName>delegacias_civis_near</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--1462b1d4:179561550ba:-7ffe</id>
+  </namespace>
+  <title>delegacias_civis_near</title>
+  <keywords>
+    <string>features</string>
+    <string>delegacias_civis_near</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>delegacias_civis_near</name>
+        <sql>select dc.geom&#xd;
+from delegacias_civis as dc&#xd;
+order by ST_DISTANCE(dc.geom, ST_SetSRID(ST_Point(%long%,%lat%), 4326)) asc&#xd;
+limit 1
+</sql>
+        <escapeSql>false</escapeSql>
+        <parameter>
+          <name>long</name>
+          <defaultValue>1</defaultValue>
+        </parameter>
+        <parameter>
+          <name>lat</name>
+          <defaultValue>1</defaultValue>
+        </parameter>
+      </virtualTable>
+    </entry>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--1462b1d4:179561550ba:-7ffd</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

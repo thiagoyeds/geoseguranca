@@ -1,0 +1,55 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--1c4636e1:1797c9fc25d:-7fd9</id>
+  <name>postos_federais_by_mesoregiao</name>
+  <nativeName>postos_federais_by_mesoregiao</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--1462b1d4:179561550ba:-7ffe</id>
+  </namespace>
+  <title>postos_federais_by_mesoregiao</title>
+  <keywords>
+    <string>postos_federais_by_mesoregiao</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>postos_federais_by_mesoregiao</name>
+        <sql>select meso.nm_meso, meso.geom, count(pf)&#xd;
+from mesoregiao as meso left join postos_federais as pf&#xd;
+on ST_WITHIN(pf.geom, meso.geom)&#xd;
+group by meso.nm_meso, meso.geom
+</sql>
+        <escapeSql>false</escapeSql>
+      </virtualTable>
+    </entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--1462b1d4:179561550ba:-7ffd</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

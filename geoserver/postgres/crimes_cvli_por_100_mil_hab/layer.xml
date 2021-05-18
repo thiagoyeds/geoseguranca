@@ -1,0 +1,17 @@
+<layer>
+  <name>crimes_cvli_por_100_mil_hab</name>
+  <id>LayerInfoImpl-7e628839:17977f815af:-6eb2</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--74b4fe16:1797ac4c81a:-7b8c</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-7e628839:17977f815af:-6eb3</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2021-05-17 02:11:15.907 UTC</dateCreated>
+  <dateModified>2021-05-17 15:03:30.985 UTC</dateModified>
+</layer>

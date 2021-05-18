@@ -1,0 +1,17 @@
+<layer>
+  <name>postos_federais_by_mesoregiao</name>
+  <id>LayerInfoImpl--1c4636e1:1797c9fc25d:-7fd8</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--1c4636e1:1797c9fc25d:-7fd7</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--1c4636e1:1797c9fc25d:-7fd9</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2021-05-17 23:22:26.775 UTC</dateCreated>
+  <dateModified>2021-05-17 23:30:47.793 UTC</dateModified>
+</layer>
