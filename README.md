@@ -2,11 +2,11 @@
 Projeto SIG usando Openlayers, Geoserver and Postgis, Tomcat para levantar os serviços do geoserver e Openstreetmaps como camada base para o mapa.
 
 ## Grupo (Numero 2)
-Gabriel Felipe Cardoso Gomes
-João Marcelo Fernandes da Silva Junior
-Paulo Felipe Feitosa da Silva
-Paulo Vitor Souto Dantas
-Thiago Yuri Evaristo de Souza
+- Gabriel Felipe Cardoso Gomes
+- João Marcelo Fernandes da Silva Junior
+- Paulo Felipe Feitosa da Silva
+- Paulo Vitor Souto Dantas
+- Thiago Yuri Evaristo de Souza
 
 ## Sobre a pasta geoseguranca
 É o frontend do projeto, utiliza Ajax, Jquery, Javascript, HTML, CSS e Openlayers
